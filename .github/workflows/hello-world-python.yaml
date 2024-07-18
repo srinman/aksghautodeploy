@@ -1,6 +1,8 @@
 name: hello-world-python
 "on":
     push:
+        paths-ignore:
+            - "README.md"
         branches:
             - main
     workflow_dispatch: {}
