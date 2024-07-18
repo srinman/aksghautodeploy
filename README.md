@@ -14,7 +14,7 @@ az aks create --resource-group aksghrg --name akscluster --node-count 1
 - add a simple app.py in /src directory. 
 - add a requirements.txt file in repo root.  
 
-That's all required to deploy the application to AKS with this auto deployment tool/process.
+That's all required to deploy the application to AKS with this auto deployment tool/process.  Other files and folders are created by the tool/process.
 
 From portal,  click 'Automated deployments' under AKS resource.
 
@@ -53,4 +53,4 @@ Also, add paths-ignore to github actions workflow to exclude updates to this REA
 
 ```
 
-Any more updates to this doc will not trigger a new deployment.
+Any more updates to this doc will not trigger a new deployment. Any other file changes will trigger a new deployment.
