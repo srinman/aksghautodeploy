@@ -52,3 +52,5 @@ Also, add paths-ignore to github actions workflow to exclude updates to this REA
             - main```
 
 ```
+
+Any more updates to this doc will not trigger a new deployment.
